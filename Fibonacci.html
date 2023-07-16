@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci</title>
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <link rel="shortcut icon" href="/Icon/launch.png">
+
+</head>
+
+<body>
+    <header class="titulo">
+        <a class="titulo_nombre" href="/index.html">
+            Fibonacci
+        </a>
+    </header>
+    <main>
+        <section class="container box_multiplo">
+            <form action="" class="box_multiplo">
+
+                <div>
+                    <h4 class="fib">Se van a mostrar los 10 primeros números de la sucesión de Fibonacci a partir del número ingresado.</h4>
+                </div>
+                <label for="num">
+                    <input class="entrada" type="number" id="num" value="" placeholder="Ingrese un número para empezar la sucesión de Fibonacci">
+                </label>
+
+                <label for="num">
+                    <input class="entrada" type="number" id="multi" value="" placeholder="Ingrese el número siguiente">
+                </label>
+                
+                <div class="botones_multiplo">
+                    <button type="button" class="boton" onClick="numero.fibonacci()">Aceptar</button>
+                    <button type="button" class="boton" onClick="numero.limpiar()">Limpiar</button>
+
+                </div>
+                <div id="resp" class="respuesta_multiplocss">
+                    Respuesta
+                </div>
+            </form>
+
+        </section>
+
+    </main>
+
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
